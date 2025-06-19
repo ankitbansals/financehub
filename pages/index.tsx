@@ -1,18 +1,31 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import Banner from "@/components/Banner";
-
+import Footer from '@/components/Footer';
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import Stats from "@/components/Stats";
+import { FinanceSolution } from '@/components/FinanceSolution';
+import { WhyFinanceHub } from '@/components/WhyFinanceHub';
+import { Eligibility } from '@/components/Eligibility';
+import { ApplicationProcess } from '@/components/ApplicationProcess';
+import { ReadyToStart } from '@/components/ReadyToStart';
+import { Security } from '@/components/Security';
+import { Testimonials } from '@/components/Testimonials';
 export default function Home() {
   return (
     <>
-      <Header />
+      <Navbar />
       <main className="min-h-screen">
-        <Banner />
-        <div className="p-8">
-          <p>This is the home page content.</p>
-        </div>
+        <Hero />
+        <Stats />
+        <FinanceSolution />
+        <WhyFinanceHub />
+        <Eligibility />
+        <ApplicationProcess />
+        <ReadyToStart />
+        <Security />
+        <Testimonials />
       </main>
       <Footer />
     </>
   );
 }
+

@@ -1,11 +1,3 @@
-# Next.js + Tailwind CSS + TypeScript Starter
-
-This is a starter template for a Next.js app configured with:
-
-- ✅ TypeScript
-- ✅ Tailwind CSS
-- ✅ Header, Footer components
-- ✅ Banner on the homepage
 
 ## 📦 Getting Started
 
